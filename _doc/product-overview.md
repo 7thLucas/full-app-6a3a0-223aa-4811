@@ -1,32 +1,61 @@
-# Product Overview
+# Product Overview — Hello World
 
-> **Status: seed / scoping in progress.** This captures only what is confirmed so far.
-> Audience, naming, positioning, and success metrics are still being defined and will be
-> filled in as scoping proceeds. Do not treat the open items below as decided.
+> **Status: scoped, pre-build.** Core scope, audience, naming, and the day-one goal are
+> confirmed. Volume/usage and pricing facts are not yet known and are treated as open
+> assumptions (notably for the North Star projection).
 
 ## What it is
 
-A simple, single-section landing page — a minimal "hello world" first build. One screen,
-one section, fast-loading and clean. Intended as a small, focused starting point that can
-grow from here.
+**Hello World** is a simple, fast, single-section landing page. One clean, centered hero
+section — a clear headline with a short supporting line — that loads instantly and looks
+crisp on any device. It is a minimal but polished web presence: a strong first impression
+that is intentionally small, and built to grow from.
+
+## Who it's for
+
+- **Any first-time visitor** who lands on the page — the page exists to give them a sharp,
+  modern first impression in seconds.
+- **The owner**, for whom it doubles as a starting web presence / placeholder to build on
+  over time.
+
+## The problem it solves
+
+The owner wants a clean, fast single-page presence online **without overbuilding**. Most
+options are either too heavy (full multi-page sites) or too rough (an unstyled placeholder).
+Hello World is the middle path: something sharp enough to stand behind today, simple enough
+to ship immediately, and a solid base to expand later.
+
+## Day-one goal (the one thing it must nail)
+
+Instantly load a **clean, centered hero section** with a clear "hello world" headline and a
+short supporting line — polished, responsive, and sharp on any screen.
 
 ## Scope (confirmed)
 
 - **Format:** Single landing page, one section.
-- **Content:** A "hello world" message as the initial placeholder content.
-- **Intent:** Minimal first build — establish the bones, then expand.
+- **Hero content:** A clear headline plus a short supporting line.
+- **Quality bar:** Fast-loading, responsive, visually intentional (not an empty stub).
+- **Intent:** Minimal first build — establish a polished base, then expand.
 
-## Open — to confirm during scoping
+## Branding
 
-- **Purpose:** Is this a genuine page to ship (launch, profile, announcement) or a
-  platform test-drive? This determines how much real substance to build in.
-- **Audience:** Who is the page for / who visits it.
-- **Name:** What to call it.
-- **The one thing it should do brilliantly** on day one.
-- **Success signal:** What outcome would make this page worth having live.
+- **Name:** Hello World.
+- **Logo:** Minimal, timeless mark on a light background, with a single confident accent
+  color; scalable down to a favicon.
+- **Tone:** Clean, modern, friendly-but-professional. Calm and uncluttered.
+
+## Open — to confirm as the page grows
+
+- **The page's eventual action:** the one thing a visitor should *do* (e.g. a contact
+  click, a sign-up, a link out). The current single section is presentation-only, so there
+  is no transactional operation yet — this is the natural next decision.
+- **Usage volume:** expected visitors per week, and conversion to that action — needed to
+  turn the North Star projection from a template into real numbers.
+- **Running costs / pricing:** none known yet (affects ROI framing).
 
 ## Notes
 
-The creative blueprint is intentionally not yet authored: there is not enough confirmed
-product detail to pitch without inventing audience, problem, or metric claims. It will be
-authored from this overview once the open items above are resolved.
+The creative blueprint is authored from this overview. Because the page is currently
+presentation-only with no confirmed usage volume, the North Star slide ships in
+definition-only form: it names the candidate operation and shows the projection formula at
+clearly-marked, editable assumption values rather than inventing traffic or value numbers.
