@@ -1,0 +1,42 @@
+<style>
+  .mode-portrait .sl-cover { flex-direction: column; }
+  .mode-portrait .sl-cover-visual { width: 100%; height: 38%; }
+  .mode-landscape .sl-cover-visual { width: 42%; height: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-cover flex w-full h-full">
+    <!-- Content column -->
+    <div class="flex flex-col justify-between flex-1 p-12">
+      <div class="flex items-center gap-3">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-indigo-600"></span>
+        <span class="text-sm font-semibold tracking-widest uppercase text-indigo-600">Hello World</span>
+      </div>
+
+      <div class="max-w-2xl">
+        <p class="text-base font-medium tracking-wide text-slate-500 mb-5">A landing page, done right.</p>
+        <h1 class="text-6xl font-extrabold leading-[1.05] tracking-tight text-slate-900">
+          One clean section.<br>
+          <span class="text-indigo-600">A sharp first impression.</span>
+        </h1>
+        <p class="mt-6 text-xl leading-relaxed text-slate-600">
+          A fast, single-section landing page that loads instantly, looks crisp on any
+          device, and gives you a polished web presence to grow from.
+        </p>
+      </div>
+
+      <div class="flex items-end justify-between">
+        <data-attribution />
+        <span class="text-sm font-medium text-slate-400">Creative Blueprint</span>
+      </div>
+    </div>
+
+    <!-- Visual column -->
+    <div class="sl-cover-visual relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=minimal%20modern%20single-section%20landing%20page%20hero%20on%20a%20laptop%2C%20clean%20whitespace%2C%20soft%20indigo%20accent%2C%20editorial%2C%20bright%20daylight%2C%20premium%20product%20photography"
+        alt="A clean single-section landing page"
+        class="absolute inset-0 w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-tr from-indigo-600/20 to-transparent"></div>
+    </div>
+  </div>
+</section>
