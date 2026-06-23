@@ -32,8 +32,11 @@ short supporting line — polished, responsive, and sharp on any screen.
 
 ## Scope (confirmed)
 
-- **Format:** Single landing page, one section.
-- **Hero content:** A clear headline plus a short supporting line.
+- **Format:** Single landing page, one full-viewport section.
+- **Hero content:** A small eyebrow badge (with a subtle accent dot), a clear headline, a
+  short supporting line, and a quiet footer line.
+- **Look (as built):** High-contrast minimal theme with a soft accent glow and a gentle
+  fade-in on load; every line of copy, the logo, and the colors are owner-editable.
 - **Quality bar:** Fast-loading, responsive, visually intentional (not an empty stub).
 - **Intent:** Minimal first build — establish a polished base, then expand.
 
