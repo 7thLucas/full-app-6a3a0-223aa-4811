@@ -1,8 +1,8 @@
 # Product Overview — Hello World
 
-> **Status: scoped, pre-build.** Core scope, audience, naming, and the day-one goal are
-> confirmed. Volume/usage and pricing facts are not yet known and are treated as open
-> assumptions (notably for the North Star projection).
+> **Status: built — initial version live.** Core scope, audience, naming, and the day-one
+> goal are confirmed and the first build is deployed. Volume/usage and pricing facts are
+> still not known and remain open assumptions (notably for the North Star projection).
 
 ## What it is
 
