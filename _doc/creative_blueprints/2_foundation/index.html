@@ -1,0 +1,43 @@
+<style>
+  .mode-portrait .sl-found { flex-direction: column; }
+  .mode-portrait .sl-found-visual { width: 100%; height: 30%; }
+  .mode-landscape .sl-found-visual { width: 34%; height: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-found flex w-full h-full">
+    <!-- Narrative column -->
+    <div class="flex flex-col justify-center flex-1 p-12 gap-8">
+      <div>
+        <span class="text-sm font-semibold tracking-widest uppercase text-indigo-600">The Foundation</span>
+        <h2 class="mt-3 text-4xl font-extrabold tracking-tight text-slate-900">Sharp enough to ship today. Built to grow.</h2>
+      </div>
+
+      <div class="grid grid-cols-2 gap-6 sl-found-grid">
+        <div class="rounded-2xl border border-slate-200 p-7">
+          <h3 class="text-lg font-bold text-slate-900 mb-3">The Problem</h3>
+          <p class="text-base leading-relaxed text-slate-600">
+            You want a clean presence online — without overbuilding. Full multi-page sites
+            are too heavy for the moment, and an unstyled placeholder is too rough to stand
+            behind. There's no middle path that's both immediate and intentional.
+          </p>
+        </div>
+        <div class="rounded-2xl border border-indigo-200 bg-indigo-50 p-7">
+          <h3 class="text-lg font-bold text-indigo-700 mb-3">The Solution</h3>
+          <p class="text-base leading-relaxed text-slate-700">
+            One polished, single-section landing page. A clear hero that loads instantly and
+            looks crisp on any screen — small on purpose, and a solid base you can expand the
+            moment you're ready.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visual column -->
+    <div class="sl-found-visual relative overflow-hidden">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=calm%20minimal%20workspace%2C%20single%20clean%20webpage%20on%20screen%2C%20soft%20indigo%20accent%2C%20bright%20airy%2C%20editorial%20product%20photography"
+        alt="A focused, minimal web presence"
+        class="absolute inset-0 w-full h-full object-cover" />
+    </div>
+  </div>
+</section>
